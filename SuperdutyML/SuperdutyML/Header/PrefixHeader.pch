@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  SuperdutyML
+//
+//  Created by 吴坤 on 2019/4/9.
+//  Copyright © 2019年 WK. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "DefineMacro.h"
+#import "DefineTheme.h"
+#import "DefineRequest.h"
+
+#import "LoginViewController.h"
+#import "NSString+HXExtension.h"
+#import "AAGlobalMacro.h"//不添加会报错
+#import "GSHttpManager.h"
+#import "DataSource.h"
+#import <AFNetworking.h>
+#endif /* PrefixHeader_pch */
