@@ -22,7 +22,6 @@
     self.view.backgroundColor = [UIColor grayColor];
     [self createRightItems];
     [self createSubUI];
-    NSLog(@"000");
 }
 -(void)createRightItems{
     
