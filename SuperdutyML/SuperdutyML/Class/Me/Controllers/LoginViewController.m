@@ -54,7 +54,7 @@
     // Do any additional setup after loading the view from its nib.
     [self GuidePage];
     [self createSubUI];
-    
+    NSLog(@"000000我就是测试一下看看是否是正确的");
     
 }
 -(void)GuidePage{
