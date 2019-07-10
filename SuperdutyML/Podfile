@@ -5,6 +5,9 @@ pod 'IQKeyboardManager'
 pod 'AFNetworking'
 pod 'SDCycleScrollView'
 pod 'MJRefresh'
+pod 'LEEAlert'
+
+pod 'Masonry'
 #pod 'BaiduMapKit' #百度地图SDK
 end
 

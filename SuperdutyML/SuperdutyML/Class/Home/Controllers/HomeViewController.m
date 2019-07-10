@@ -22,6 +22,7 @@
     self.view.backgroundColor = [UIColor grayColor];
     [self createRightItems];
     [self createSubUI];
+    NSLog(@"000");
 }
 -(void)createRightItems{
     
@@ -34,11 +35,11 @@
 }
 
 -(void)createSubUI{
-    WKListViewController *wklist = [[WKListViewController alloc]init];
-    [self addChildViewController:wklist];
+    WKListViewController *wklists = [[WKListViewController alloc]init];
+    [self addChildViewController:wklists];
 //    WKScrollView *scroller = [[WKScrollView alloc]initWithFrame:CGRectMake(0, kStatusBarAndNavigationBarHeight, SCREEN_WIDTH, SCREEN_HEIGHT-kStatusBarAndNavigationBarHeight-kTabbarHeight) TitArr:@[@"第一",@"第二",@"第三"] viewArr:@[wklist.view,[UIView new],[UIView new]]];
 //    [self.view addSubview:scroller];
-    [self.view addSubview:wklist.view];
+    [self.view addSubview:wklists.view];
 
 }
 /*
